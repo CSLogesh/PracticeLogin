@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-08-24T11:48:38 IST" name="Login Suite" finished-at="2025-08-24T11:48:51 IST" duration-ms="13322">
+    <groups>
+      <group name="regression">
+        <method signature="TC02_UnsuccessfulLogin.verify_unsuccessful_login()[pri:0, instance:testCases.TC02_UnsuccessfulLogin@1623b78d]" name="verify_unsuccessful_login" class="testCases.TC02_UnsuccessfulLogin"/>
+      </group> <!-- regression -->
+      <group name="sanity">
+        <method signature="TC01_SuccessfulLogin.verify_successful_login()[pri:0, instance:testCases.TC01_SuccessfulLogin@77847718]" name="verify_successful_login" class="testCases.TC01_SuccessfulLogin"/>
+      </group> <!-- sanity -->
+    </groups>
+    <test started-at="2025-08-24T11:48:38 IST" name="Login Scenario Test" finished-at="2025-08-24T11:48:51 IST" duration-ms="13322">
+      <class name="testCases.TC01_SuccessfulLogin">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC01_SuccessfulLogin@77847718]" started-at="2025-08-24T11:48:38 IST" name="setup" finished-at="2025-08-24T11:48:44 IST" duration-ms="5670" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verify_successful_login()[pri:0, instance:testCases.TC01_SuccessfulLogin@77847718]" started-at="2025-08-24T11:48:44 IST" name="verify_successful_login" finished-at="2025-08-24T11:48:45 IST" duration-ms="877" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_successful_login -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.TC01_SuccessfulLogin@77847718]" started-at="2025-08-24T11:48:45 IST" name="teardown" finished-at="2025-08-24T11:48:45 IST" duration-ms="283" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- testCases.TC01_SuccessfulLogin -->
+      <class name="testCases.TC02_UnsuccessfulLogin">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC02_UnsuccessfulLogin@1623b78d]" started-at="2025-08-24T11:48:45 IST" name="setup" finished-at="2025-08-24T11:48:51 IST" duration-ms="5303" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verify_unsuccessful_login()[pri:0, instance:testCases.TC02_UnsuccessfulLogin@1623b78d]" started-at="2025-08-24T11:48:51 IST" name="verify_unsuccessful_login" finished-at="2025-08-24T11:48:51 IST" duration-ms="591" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_unsuccessful_login -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.TC02_UnsuccessfulLogin@1623b78d]" started-at="2025-08-24T11:48:51 IST" name="teardown" finished-at="2025-08-24T11:48:51 IST" duration-ms="320" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- testCases.TC02_UnsuccessfulLogin -->
+    </test> <!-- Login Scenario Test -->
+  </suite> <!-- Login Suite -->
+</testng-results>

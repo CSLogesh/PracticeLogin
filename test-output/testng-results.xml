@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-08-24T10:24:12 IST" name="Login Suite" finished-at="2025-08-24T10:24:22 IST" duration-ms="10494">
+    <groups>
+      <group name="regression">
+        <method signature="TC02_UnsuccessfulLogin.verify_unsuccessful_login()[pri:0, instance:testCases.TC02_UnsuccessfulLogin@3b0090a4]" name="verify_unsuccessful_login" class="testCases.TC02_UnsuccessfulLogin"/>
+      </group> <!-- regression -->
+      <group name="sanity">
+        <method signature="TC01_SuccessfulLogin.verify_successful_login()[pri:0, instance:testCases.TC01_SuccessfulLogin@5bda8e08]" name="verify_successful_login" class="testCases.TC01_SuccessfulLogin"/>
+      </group> <!-- sanity -->
+    </groups>
+    <test started-at="2025-08-24T10:24:12 IST" name="Linux Chrome Test" finished-at="2025-08-24T10:24:22 IST" duration-ms="10494">
+      <class name="testCases.TC01_SuccessfulLogin">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC01_SuccessfulLogin@5bda8e08]" started-at="2025-08-24T10:24:12 IST" name="setup" finished-at="2025-08-24T10:24:17 IST" duration-ms="5456" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[linux]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verify_successful_login()[pri:0, instance:testCases.TC01_SuccessfulLogin@5bda8e08]" started-at="2025-08-24T10:24:17 IST" name="verify_successful_login" finished-at="2025-08-24T10:24:18 IST" duration-ms="521" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_successful_login -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.TC01_SuccessfulLogin@5bda8e08]" started-at="2025-08-24T10:24:18 IST" name="teardown" finished-at="2025-08-24T10:24:18 IST" duration-ms="91" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- testCases.TC01_SuccessfulLogin -->
+      <class name="testCases.TC02_UnsuccessfulLogin">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC02_UnsuccessfulLogin@3b0090a4]" started-at="2025-08-24T10:24:18 IST" name="setup" finished-at="2025-08-24T10:24:22 IST" duration-ms="3634" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[linux]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verify_unsuccessful_login()[pri:0, instance:testCases.TC02_UnsuccessfulLogin@3b0090a4]" started-at="2025-08-24T10:24:22 IST" name="verify_unsuccessful_login" finished-at="2025-08-24T10:24:22 IST" duration-ms="376" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_unsuccessful_login -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.TC02_UnsuccessfulLogin@3b0090a4]" started-at="2025-08-24T10:24:22 IST" name="teardown" finished-at="2025-08-24T10:24:22 IST" duration-ms="128" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- testCases.TC02_UnsuccessfulLogin -->
+    </test> <!-- Linux Chrome Test -->
+  </suite> <!-- Login Suite -->
+</testng-results>
